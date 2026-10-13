@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nocturnal",
+  "version": "${version}",
+  "name": "Nocturnal",
+  "description": "A dark-themed Fabric client GUI and modular utility framework for Minecraft 1.21.11.",
+  "authors": ["Nocturnal"],
+  "environment": "client",
+  "license": "MIT",
+  "entrypoints": { "client": ["com.client.nocturnal.NocturnalClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
